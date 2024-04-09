@@ -24,3 +24,10 @@ This application runs in asynchronous mode, since it involves many IO operations
 - sending messages to Telegram.
 
 All main methods work with a decorator, which measures the running time of the method on every tenth call of this method.
+
+```shell
+When you start it for the first time, you need to run the script:
+create_tables.py - it will create tables in the database;
+then run the script:
+fill_assets.py - it will fill the table with the installed currency pairs.
+```
